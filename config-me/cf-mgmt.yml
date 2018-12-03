@@ -1,0 +1,12 @@
+enable-delete-isolation-segments: false
+enable-unassign-security-groups: false
+enable-service-access: false
+running-security-groups:
+- public_networks
+- dns
+- load_balancer
+- all_access
+staging-security-groups:
+- public_networks
+- dns
+- all_access

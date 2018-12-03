@@ -1,0 +1,38 @@
+org: cfdev-org
+space: cfdev-space
+space-developer:
+  ldap_users: []
+  users:
+  - admin
+  - user
+  saml_users: []
+  ldap_groups: []
+space-manager:
+  ldap_users: []
+  users:
+  - admin
+  - user
+  saml_users: []
+  ldap_groups: []
+space-auditor:
+  ldap_users: []
+  users:
+  - user
+  saml_users: []
+  ldap_groups: []
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 0
+instance-memory-limit: 0
+total-routes: 0
+total-services: 0
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: false
+total_private_domains: 0
+total_reserved_route_ports: 0
+total_service_keys: 0
+app_instance_limit: 0
+app_task_limit: 0
+isolation_segment: ""
+named-security-groups: []
