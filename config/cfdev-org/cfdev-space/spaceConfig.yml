@@ -10,8 +10,8 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - admin
   - user
+  - admin
   saml_users: []
   ldap_groups: []
 space-auditor:

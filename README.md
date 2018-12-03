@@ -11,7 +11,7 @@ uaac client add cf-mgmt \
 
 ```
 mkdir cf-mgmt && cd cf-mgmt
-cf-mgmt export-config --config-dir=config-me \
+cf-mgmt export-config --config-dir=config \
   --system-domain=dev.cfdev.sh \
   --user-id=cf-mgmt \
   --client-secret=cf-mgmt-secret
